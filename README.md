@@ -42,4 +42,4 @@
 
 	5. The project folder must be in the /Applications/XAMPP/xamppfiles/htdocs/
 
-	6. To execute the app enter in the url of your web-navigator: localhost/JoaquinPizzas.
+	6. To execute the app enter in the url of your web-navigator: localhost/JoaquinPizzas
