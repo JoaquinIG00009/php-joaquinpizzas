@@ -1,8 +1,6 @@
 # MCO Web_App_Test - Joaquin Pizza's
 
 
----------------------------------------------
-
 ## This application has 2 pages:
 
 [ 1 ] index.php - functionalities:
@@ -27,8 +25,6 @@
 
 	- Return to the previous page.
 
-
----------------------------------------------
 
 ## How to make the project work:
 
