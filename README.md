@@ -5,7 +5,7 @@
 
 ## This application has 2 pages:
 
-[ 1 ] index.php - funcionalities:
+[ 1 ] index.php - functionalities:
 
 	- Delete a specific pizza.
 
@@ -13,7 +13,7 @@
 
 	- In this page you can enter in a specific pizza page by 'clicking on it', to see the ingredients.
 
-[ 2 ] pizza_info.php - funcionalities:
+[ 2 ] pizza_info.php - functionalities:
 
 	- If you tapped in a pizza in the previous page it will load his details.
 
