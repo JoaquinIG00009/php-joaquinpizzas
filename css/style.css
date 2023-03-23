@@ -1,0 +1,219 @@
+body {
+  background-color: black;
+}
+.container-title {
+  margin: 30px 0px;
+}
+.ingredients-c {
+  display: flex; 
+  justify-content: space-evenly;
+  margin-bottom: 15px;
+}
+.ingredient-c {
+  border-radius: 15px;
+  background-color: rgba(255,255,255,0);
+  opacity: 0.5;
+  transition: 0.4s;
+}
+.ingredient-c:hover {
+  background-color: rgba(255,255,255,0.1);
+  opacity: 1;
+  cursor: pointer;
+}
+.ingredient-c>p, .ingredient-c>label, .ingredient-c>input {
+  text-align: center;
+  color: white;
+}
+.ingredient-c>img {
+  margin: 1rem;
+}
+p {
+  margin: 1rem;
+}
+.w {
+  color: white;
+}
+.center {
+  text-align: center; 
+  vertical-align: middle;
+}
+.right {
+  text-align: right;
+  vertical-align: middle;
+}
+.container-p {
+  display: flex;  
+  justify-content: space-between;
+  min-height: 280px;
+}
+.pizzas {
+  display: flex; 
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.pizza {
+  min-width: 200px;
+  display: flex; 
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0);
+  opacity: 0.7; 
+  margin: 1rem;
+  padding: 1rem;
+  border: none; 
+  border-radius: 13px;
+  transition: 0.4s;
+}
+.pizza:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  opacity: 1;
+}
+.pizza:hover>.small-c-btn {
+  opacity: 1;
+}
+.pizza>img {
+  display: block;
+  margin: 0px auto;
+  margin-bottom: 5px !important;
+  cursor: pointer;
+}
+.name {
+  cursor: pointer;
+}
+#pizza_name {
+  margin: 10px 0px 10px 10px;
+  line-height: 1 !important;
+}
+.add-pizza {
+  display: flex; 
+  align-items: center;
+}
+.container-p-title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.container-p-info {
+  display: flex;
+  justify-content: center;
+}
+.container-p-back {
+  display: flex;
+  justify-content: flex-end;
+}
+/* Table components */
+tr {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px; 
+  background-color: rgba(255, 255, 255, 0); 
+  transition: 0.3s;
+}
+tr>td:first-child { 
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+tr>td:last-child {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px; 
+}
+tr:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+tr:last-child:hover {
+  background-color: rgba(255, 255, 255, 0);
+}
+tr#empty:hover {
+  background-color: transparent !important;
+}
+tr>td {
+  padding: 7px;
+}
+tr>td:first-child {
+  padding-left: 15px;
+}
+tr>td:last-child {
+  padding-right: 15px;
+}
+tr#new-row {
+  background-color: transparent !important;
+}
+tr#new-row>td>input[type=text], .pizza_input {
+  border: 2px solid white;; 
+  border-radius: 7px; 
+  padding: 5px 10px; 
+  background-color: rgba(255, 255, 255, 0.15);
+  opacity: 0.5;
+}
+tr#new-row>td>input:hover, .pizza_input:hover  {
+  opacity: 1;
+}
+#return-btn {
+  opacity: 0.6 !important;
+}
+#return-btn:hover {
+  opacity: 1 !important;
+}
+/* Buttons */
+.small-btn {
+  margin: 10px;
+  background-color: transparent;
+  width: 30px;
+  height: 30px;
+  border: none;
+  padding: 0px;
+  vertical-align: middle;
+  transition: 0.8s;
+  opacity: 0.4;
+}
+.small-c-btn {
+  background-color: transparent;
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 50%;
+  padding: 0px;
+  vertical-align: middle;
+  transition: 0.8s;
+  opacity: 0;
+}
+.small-arrow-btn {
+  background-color: transparent;
+  width: 30px;
+  height: 30px;
+  border: none;
+  padding: 0px;
+  vertical-align: middle;
+  transition: 0.8s;
+  opacity: 0;
+}
+.small-arrow-btn>img {
+  object-fit: scale-down;
+}
+.small-btn:hover, .small-c-btn:hover, .small-arrow-btn:hover {
+  opacity: 1;
+}
+tr:hover>td>.small-c-btn, tr:hover>td>.small-arrow-btn {
+  opacity: 0.5;
+}
+td>.small-c-btn:hover, td>.small-arrow-btn:hover {
+  opacity: 1 !important;
+}
+.small-add-btn {
+  background-color: transparent;
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 50%;
+  padding: 0px;
+  transition: 0.4s;
+  opacity: 0.5;
+  vertical-align: middle;
+}
+.small-add-btn:hover {
+  opacity: 0.85;
+}
+.small-c-btn>img {
+  vertical-align: initial !important;
+}
