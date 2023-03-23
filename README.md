@@ -34,7 +34,7 @@
 
 	3. There´s an exported database sql file in JoaquinPizzas/db_sql/pizza_db.sql
 
-	4. On the file JoaquinPizzas/php/db.sql configured the next details: 
+	4. On the file JoaquinPizzas/php/db.sql I configured the next details: 
 		private $servername ='localhost';
 	  	private $username='root';
 	  	private $password='';
